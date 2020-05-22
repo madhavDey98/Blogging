@@ -1,0 +1,56 @@
+/*The Body cascading*/
+ body {
+    border:15px solid #bdc3c7;
+    margin-left: 21%;
+    margin-right: 22%;
+    text-align: left;
+    padding-left: 17px;
+    padding-right: 14px;
+ }
+
+/*The paragraph cascading*/
+p {
+ 	font-size: 20px;
+ 	line-height: 27px;
+ 	padding-left: 6px;
+ 	 font-family:'source sans pro';
+ 	 font-weight: lighter;
+ 	 font-style: normal;
+ }
+
+/*The h1 cascading*/
+  h1 {
+ 	text-align: left;
+ 	font-family:'source sans pro';
+ 	font-weight: bold;
+
+ }
+
+/*The h3 cascading*/
+ h3 {
+     font-style: normal;
+     color: #3b7dc1;
+     font-family:'source sans pro';
+ 	 font-weight: 700;
+ 	 letter-spacing: 0.2rem;
+ }
+
+/*The Horizontal line cascading*/
+ hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    padding-right: 18px;
+}
+ 
+/*Cascading of 1st letter of the 1st paragraph using class*/
+.first:first-letter {
+       font-size: 250%;
+ }
+
+/*Using class giving border*/
+.first {
+ 	   border-left: 6px ridge #3b7dc1;
+ 	   
+
+ }
